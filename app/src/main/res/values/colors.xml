@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Dark Theme Palette -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_variant_dark">#2A2A2A</color>
+    <color name="surface_border">#383838</color>
+    
+    <!-- Accent & Status Colors -->
+    <color name="primary">#7C4DFF</color>
+    <color name="primary_variant">#651FFF</color>
+    <color name="accent_green">#00E676</color>
+    <color name="accent_green_container">#1A3326</color>
+    <color name="accent_amber">#FFD600</color>
+    <color name="accent_amber_container">#383115</color>
+    <color name="accent_red">#FF5252</color>
+    <color name="accent_red_container">#3B1F20</color>
+    
+    <!-- Pill Specific Colors -->
+    <color name="pill_background">#1E1E1E</color>
+    <color name="pill_stroke">#3A3A3A</color>
+    
+    <!-- Typography & Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_tertiary">#757575</color>
+</resources>

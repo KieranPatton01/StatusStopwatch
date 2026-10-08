@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StatusStopwatch</string>
+    <string name="title_stopwatch">Persistent Stopwatch</string>
+    <string name="status_stopped">STOPPED</string>
+    <string name="status_running">RUNNING</string>
+    <string name="status_paused">PAUSED</string>
+    
+    <string name="btn_start">Start</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_reset">Reset</string>
+    
+    <string name="section_permissions">System Permissions</string>
+    <string name="perm_overlay_title">Status Bar Overlay</string>
+    <string name="perm_overlay_desc">Allows drawing the ongoing pill over the status bar.</string>
+    <string name="perm_notification_title">Notifications</string>
+    <string name="perm_notification_desc">Required for background foreground service stability.</string>
+    <string name="btn_grant">Grant</string>
+    <string name="badge_granted">Granted</string>
+    <string name="badge_required">Required</string>
+    
+    <string name="section_calibration">Pill Offset Calibration</string>
+    <string name="calibration_desc">Tune horizontal and vertical positioning to align perfectly with your screen cutout and clock.</string>
+    <string name="toggle_overlay">Show Status Bar Pill</string>
+    <string name="label_offset_x">Horizontal Offset (X):</string>
+    <string name="label_offset_y">Vertical Offset (Y):</string>
+    <string name="btn_reset_offsets">Reset Position</string>
+    
+    <string name="section_info">Reboot Resilience</string>
+    <string name="info_desc">This stopwatch never runs a battery-draining tick loop while backgrounded or idle. It references wall-clock epoch time (System.currentTimeMillis()) and automatically resumes across device reboots and app kills.</string>
+</resources>
